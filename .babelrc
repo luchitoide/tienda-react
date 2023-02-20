@@ -1,0 +1,9 @@
+{
+	"presets": [
+			"@babel/preset-env",
+            //evitas importar react en los header files de tus componentes
+			["@babel/preset-react", {
+				"runtime": "automatic"
+			}]
+	]
+}
